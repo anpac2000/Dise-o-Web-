@@ -1,0 +1,267 @@
+body{
+  background-color:  #02010a;
+}
+
+@media only screen and (min-width: 900px){
+  #contenido{
+    width: 900px;
+    margin: 0px auto;
+  }
+  .contenedor {
+	   display: flex;
+	    flex-direction: row;
+    }
+
+    #encabezado {
+	 background-color: #5b7989;
+	 width: 90%;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px auto;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  #titulo {
+	 text-align: left;
+    background-color: #5b7989;
+    border-radius: 10px 0px 0px 0px;
+    width: 80%;
+    text-shadow: 2px 2px #02010a;
+    font-size: 20px;
+  }
+
+  #menu {
+    text-align: center;
+    background-color: #5b7989;
+    border-radius: 0px 10px 0px 0px;
+    width: 20%;
+    text-decoration-color: none;
+    padding: 2em;
+  }
+
+
+  #central{
+	 background-color:  #82c3a6;
+	 width: 90%;
+    margin: 0px auto;
+    height: 20em;
+  }
+
+  #central .contenedor{
+    margin: 0px auto;
+    text-align: center;
+    padding: 2em;
+  }
+
+
+  #central .contenedor >div > img{
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid;
+
+  }
+
+  #secundaria{
+	 background-color:  #d5c75f;
+	 width: 90%;
+    margin: 0px auto;
+    height: 12em;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  #secundaria .contenedor{
+    margin: 0px auto;
+    text-align: center;
+    padding: 1em;
+  }
+  #secundaria .contenedor >div >img{
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid;
+  }
+
+  #secundaria1{
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  #secundaria2{
+    margin: 0px auto;
+    text-align: center;
+    align-items: center;
+  }
+  #pie{
+    background-color:#C6d5c5;
+  	width: 90%;
+    margin: 0px auto;
+    height: 12em;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Dancing Script', cursive;
+  }
+  #contacto {
+  	text-align: center;
+    background-color: #C6d5c5;
+    width: 25%;
+  }
+  #terminos {
+  	text-align: center;
+    background-color: #C6d5c5;
+    width: 25%;
+
+  }
+
+  #redesSociales {
+  	text-align: center;
+    background-color: #C6d5c5;
+    width: 25%;
+    flex-direction: column;
+
+  }
+  #derechos {
+  	text-align: center;
+    background-color: #C6d5c5;
+    width: 25%;
+
+  }
+}
+
+@media only screen and ( max-width: 900px ){
+  #contenido{
+    width: 100%;
+    margin: 0px auto;
+  }
+  .contenedor {
+     display: flex;
+      flex-direction: column;
+    }
+    #encabezado {
+    background-color: #5b7989;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px auto;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    }
+
+    #titulo {
+    text-align: left;
+    background-color: #5b7989;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    text-shadow: 2px 2px #02010a;
+    font-size: 25px;
+    text-align: center;
+    }
+
+    #menu {
+    text-align: center;
+    background-color: #5b7989;
+    border-radius: 0px 10px 0px 0px;
+    width: 100%;
+    text-decoration-color: none;
+    text-align: center;
+    font-size: 25px;
+    }
+    #central{
+  	 background-color:  #82c3a6;
+  	 width: 100%;
+      margin: 0px auto;
+      height: auto;
+    }
+
+    #central .contenedor{
+      margin: 0px auto;
+      text-align: center;
+    }
+    #central .contenedor >div > img{
+      width: 90%;
+      height: auto;
+      margin: 0px auto;
+      border: 1px solid;
+    }
+    #secundaria{
+  	 background-color:  #d5c75f;
+  	 width: 100%;
+      margin: 0px auto;
+      height: auto;
+      font-family: 'Dancing Script', cursive;
+    }
+
+    #secundaria .contenedor{
+      margin: 0px auto;
+      text-align: center;
+    }
+    #secundaria .contenedor >div >img{
+      width: 90%;
+      margin: 0px auto;
+      border: 1px solid;
+    }
+
+    #secundaria1{
+      margin: 0px auto;
+      text-align: center;
+    }
+
+    #secundaria2{
+      margin: 0px auto;
+      text-align: center;
+      align-items: center;
+    }
+    #pie{
+      background-color:#C6d5c5;
+    	width: 100%;
+      margin: 0px auto;
+      border-radius: 0px 0px 10px 10px;
+      font-family: 'Dancing Script', cursive;
+    }
+    #contacto {
+    	text-align: center;
+      background-color: #C6d5c5;
+      width: 100%;
+    }
+    #terminos {
+    	text-align: center;
+      background-color: #C6d5c5;
+      width: 100%;
+
+    }
+
+    #redesSociales {
+    	text-align: center;
+      background-color: #C6d5c5;
+      width: 100%;
+      flex-direction: column;
+
+    }
+    #derechos {
+    	text-align: center;
+      background-color: #C6d5c5;
+      width: 100%;
+
+    }
+}
+/*termina media query*/
+
+a{
+  color: white;
+  }
+a:hover {
+  color: black;
+}
+#central .contenedor > div{
+  margin: 0px auto;
+  text-align: center;
+}
+#secundaria1 img:hover {
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+}
+
+#secundaria2 img:hover{
+  -moz-transform: translate(20px, -5px);
+  -webkit-transform: translate(20px, -5px);
+}
+
+img{
+  box-shadow: 2px 2px 2px 2px  #02010a;
+}
